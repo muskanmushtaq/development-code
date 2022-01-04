@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #dbdbdb;
+
+}
+
+.wrapper{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    padding: 34px;
+    border-radius: 7px;
+    box-shadow: 0 5px 10px rgba(179, 175, 175, 0.2)1;
+}
+.wrapper h2{
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    border-bottom: 1px solid silver;
+    
+}
+.wrapper h2::before{
+    
+    position: absolute;
+    left:0;
+    bottom: 0;
+    height: 3px;
+    width: 28px;
+    border-radius: 12px;
+    background: #91a2d3;
+    border-bottom: 15px;
+}
+.wrapper from{
+    margin-top: 25px;
+}
+.wrapper from .input-box{
+    height: 52px;
+    margin: 18px 0;
+}
+from .input-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0.15px;
+    font-size: 17px;
+    font-weight: 400;
+    color:#333;
+    border: 1.5px solid #C7BEBE;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+.input-box input:focus,
+.input-box input:valid{
+    border-color: #0d266d;
+}
+.mybotton1{
+    background:rgb(62, 88, 231);
+     color:#fff;
+     border-style:outset;
+     border:1px solid lightgrey;
+     height:50px;
+     width:100px;
+     font-size: 20px;
+     cursor: pointer;
+     font-family: sans-serif;
+     text-shadow:none;
+     display: block;
+     display: inline;
+     text-align: center;
+     border-radius: 5px;
+     box-shadow: #b9b6b6;
+     transition: all 0.3s;
+     padding: 10px;
+     position: relative;
+     
+     
+}
+.button :hover{
+
+
+    background: #abe6ee;
+
+}
+
+.mybotton2{
+    background:#e9e5e5;
+     color:rgb(82, 159, 247);
+     border-style:outset;
+     border:1px;
+     border-style: outset;
+     height:50px;
+     width:100px;
+     font-size: 20px;
+     font-family: sans-serif;
+     text-align: center;
+     text-shadow:none;
+     display: block;
+     display: inline;
+     cursor: pointer;
+     border-radius: 5px;
+     margin-top: 20px;
+     box-shadow: #b9b6b6;
+     transition: all 0.3s;
+     padding: 12px;
+     position: relative;
+     
+} 
+   
+.button :hover{
+    background: #abe6ee;
+
+}
+
+ .text{
+    color:#4070f4;
+    text-decoration: none;
+}
+.img{
+    width: 70px;
+    margin-top: -50px;
+    height: inherit;
+}
+
+
+
+
